@@ -22,7 +22,7 @@ theme_settings:
 
   # Icons
   rss: false  # Make sure you created a feed.xml with feed.xml layout
-  email_address: florian.woerner@onmyown.io# Full email address, e.g. "sam@example.com"
+  email_address: "florian.woerner@onmyown.io"# Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
