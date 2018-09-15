@@ -46,6 +46,12 @@ To launch de development mode of jekyll, type the following command
 docker run --rm --volume=$PWD:/srv/jekyll -p 35729:35729 -p 80:4000 -it jekyll/builder:3.8 jekyll serve
 ```
 
+To build the site localy
+
+```docker
+docker run --rm --volume=$PWD:/srv/jekyll -it jekyll/builder:3.8 jekyll build
+```
+
 ## Structure
 
 Here are the main files of the template
