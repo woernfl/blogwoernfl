@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample post 4
+title: Sample post 5
 tags: [A Tag, Test, Lorem, Ipsum, CHANGE]
 excerpt_separator: <!--more-->
 ---
