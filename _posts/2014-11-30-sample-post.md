@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample post
-tags: [A Tag, Test, Lorem, Ipsum]
+title: Sample post 2
+tags: [A Tag, Test, Lorem, Ipsum, CHANGE]
 excerpt_separator: <!--more-->
 ---
 
