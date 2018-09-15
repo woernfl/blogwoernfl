@@ -38,6 +38,14 @@ A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chan
 	- Github Page: [update `_config.yml`](https://github.com/Sylhare/Type-on-Strap#site-configuration)
 5. Run the Jekyll server: `jekyll serve`
 
+## Docker launch
+
+To launch de development mode of jekyll, type the following command
+
+```docker
+docker run --rm --volume=$PWD:/srv/jekyll -p 35729:35729 -p 4000:4000 -it jekyll/builder:3.8 jekyll serve
+```
+
 ## Structure
 
 Here are the main files of the template
