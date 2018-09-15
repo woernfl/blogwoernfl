@@ -1,6 +1,6 @@
 --- 
 layout: page
-title : Portfolio 
+title : Portfolio2 
 permalink: /portfolio/
 subtitle: "Projects I am working on" 
 feature-img: "assets/img/pexels/computer.jpeg"
