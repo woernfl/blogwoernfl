@@ -1,62 +1,64 @@
 # SITE CONFIGURATION
 baseurl: "/blogwoernfl"
-url: "https://woernfl.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+#url: "https://woernfl.github.io"
+url: "http://127.0.0.1"
+title: "@woernfl 's blog" # site's title
+description: "The place where you will find Florian Woerner's (woernfl) blog posts" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
-  avatar: assets/img/triangle.svg
-  favicon: assets/favicon.ico
+  title: woernfl # blog's title
+  avatar: assets/img/logo.png
+  favicon: assets/img/logo.png
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+    <h1>Blog</h1><p><span style="position:relative; right:50px">Where I have been posting stuff</span><br>
+    <span style="position:relative; left:50px">around what I have been doing.</span></p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+    See all the source code of this site in <a href="https://github.com/woernfl/blogwoernfl" target="_blank">Github</a>
 
   # Icons
-  rss: false  # Make sure you created a feed.xml with feed.xml layout
-  email_address: "florian.woerner@onmyown.io"# Full email address, e.g. "sam@example.com"
+  rss:  # Make sure you created a feed.xml with feed.xml layout
+  email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  gitlab:
+  gitlab: "woernfl"
   github: "woernfl"
   google_plus:
   instagram:
   keybase:
-  linkedin:  # Full URL
+  linkedin: https://www.linkedin.com/in/woernfl/ # Full URL
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "woernfl"# "twitter username"
+  twitter: "woernfl" # "twitter username"
   vimeo:
   wordpress:
   youtube:
   
   # Sharing options
   share_buttons:
-    facebook: false
+    facebook: true
     twitter: true
-    google_plus:
+    google_plus: true
     tumblr:
     pinterest:
-    pocket:
-    reddit: true
+    pocket: true
+    reddit:
     linkedin: true
     wordpress:
-    email: true
+    email:
 
   # Scripts / Features 
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
