@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: "/blogwoernfl"
-#url: "https://woernfl.github.io"
-url: "http://127.0.0.1"
+url: "https://woernfl.github.io"
+#url: "http://127.0.0.1"
 title: "@woernfl 's blog" # site's title
 description: "The place where you will find Florian Woerner's (woernfl) blog posts" # used by search engines
 
