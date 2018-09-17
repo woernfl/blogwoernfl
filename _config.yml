@@ -16,7 +16,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-    <h1>Blog</h1><p><span style="position:relative; right:50px">Where I have been posting stuff</span><br>
+    <h1>woernfl 's blog</h1><p><span style="position:relative; right:50px">Where I have been posting stuff</span><br>
     <span style="position:relative; left:50px">around what I have been doing.</span></p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
