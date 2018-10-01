@@ -38,15 +38,17 @@ A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chan
 	- Github Page: [update `_config.yml`](https://github.com/Sylhare/Type-on-Strap#site-configuration)
 5. Run the Jekyll server: `jekyll serve`
 
-## Docker launch
+## Docker usage
 
-To launch de development mode of jekyll, type the following command
+To launch de development mode of jekyll, type the following command:
 
 ```docker
 docker run --rm --volume=$PWD:/srv/jekyll -p 80:4000 -it jekyll/builder:3.8 jekyll serve
 ```
 
-To build the site localy
+You will then be able to access your site by typing `127.0.0.1` in your browser. Any file added, updated or removed will trigger an automatic rebuild of your site.
+
+To only buiild your site without deploying it, you can type this command:
 
 ```docker
 docker run --rm --volume=$PWD:/srv/jekyll -it jekyll/builder:3.8 jekyll build
