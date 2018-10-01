@@ -32,11 +32,10 @@ A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chan
 ## Usage
 
 1. Fork and clone the [Type on Strap repo](https://github.com/sylhare/Type-On-Strap): `git clone https://github.com/Sylhare/Type-on-Strap.git`
-2. Install [Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`, check [#1](https://github.com/Sylhare/Type-on-Strap/issues/1) if you have a problem.
-3. Install the theme's dependencies: `bundle install`
+2. Install [Docker](https://docs.docker.com/install/#supported-platforms) 
 4. Customize the theme
 	- Github Page: [update `_config.yml`](https://github.com/Sylhare/Type-on-Strap#site-configuration)
-5. Run the Jekyll server: `jekyll serve`
+5. Run the Jekyll server: `docker run --rm --volume=$PWD:/srv/jekyll -p 80:4000 -it jekyll/builder:3.8 jekyll serve`
 
 ## Docker usage
 
