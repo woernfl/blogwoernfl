@@ -7,21 +7,10 @@ excerpt_separator: <!--more-->
 tags: [Conference]
 ---
 
-This year, I went for the third time to the Open Source Summit Europe 2018
+This year, I went for the third time to the Open Source Summit Europe 2018.
 <!--more-->
 
-Most of this questions were about the `persistent volume` provisioning, so let's dive into this subject.
-
----
-
-Basically there are 2 ways of managing it:
-
-- `Manually creating the persistent volume`, which is leading to you creating all the persistent volume on your own (the last thing you want to do)
-- `Automatically creating the persistent volume` by letting Kubernetes talk with your storage backend so that it can provision itself what it needs
-
-If you do not know what is a `persistent volume`, that's ok <i class="fa fa-smile-o"></i>. Let say that you can see it as a network disk or a network drive, whatever rings a bell in your mind.
-
-Some would argue that there is also the `statefulset` object and I would answer that from a state perspective the `statefulset` is using the automatic creation of the `persistent volume`, nothing more. Hoever `statefulset` are providing a number of feature usually useful when dealing with stateful applications. The most useful one, in my opinion, being the ordered deployment and deletion of pods.
+The most useful one, in my opinion, being the ordered deployment and deletion of pods.
 
 ---
 
