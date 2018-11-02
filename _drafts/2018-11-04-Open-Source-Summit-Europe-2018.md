@@ -16,7 +16,7 @@ The most useful one, in my opinion, being the ordered deployment and deletion of
 
 # Let set some context
 
-To make it easier to understand, let put some context here. Let's say that we are in a company called `BigCo`. `BigCo` has already rolled out `Kubernetes` to manage all services it provides. `John` and `Bob` are 2 employees of `BigCo`. `John` is a sysadmin and `Bob` is a developer. One day `Bob` come to `John` with an ask, he would need to run a MySQL database in the `Kubernetes` cluster hosting his application.
+To make it easier to understand, let put some context here. Let's say that we are in a company called `BigCo`. `BigCo` has already rolled out `Kubernetes` to manage all services it provides. `John` and `Bob` are 2 employees of `BigCo`. `John` is a sysadmin and `Bob
 
 # Manually creating the persistent volumes
 
