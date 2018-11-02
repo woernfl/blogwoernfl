@@ -47,7 +47,7 @@ docker run --rm --volume=$PWD:/srv/jekyll -p 80:4000 -it jekyll/builder:3.8 jeky
 
 You will then be able to access your site by typing `127.0.0.1` in your browser. Any file added, updated or removed will trigger an automatic rebuild of your site.
 
-To only buiild your site without deploying it, you can type this command:
+To only build your site without deploying it, you can type this command:
 
 ```docker
 docker run --rm --volume=$PWD:/srv/jekyll -it jekyll/builder:3.8 jekyll build
