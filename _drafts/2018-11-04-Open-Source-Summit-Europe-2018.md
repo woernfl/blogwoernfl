@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 tags: [Conference]
 ---
 
-This year, I went for the 
+This year, I went for the third time to the Open Source Summit Europe 2018
 <!--more-->
 
 Most of this questions were about the `persistent volume` provisioning, so let's dive into this subject.
