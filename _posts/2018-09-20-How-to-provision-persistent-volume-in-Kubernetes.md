@@ -180,7 +180,7 @@ As `Bob` is happy with the solution proposed by `John`, he wants spin up more in
 
 ## The flow
 
-So here is how the provisioning process work in this situation: 
+So here is how the provisioning process work in this situation:
 
 1.Again, `BigCo` has a `Kubernetes` cluster and a storage backend up and running. They can both communicate together:
 
