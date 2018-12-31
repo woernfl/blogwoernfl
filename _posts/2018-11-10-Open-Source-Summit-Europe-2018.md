@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Open Source Summit Europe 2018
-feature-img: "assets/img/posts/2018-11-10-Open-Source-Summit-Europe-2018/OSSEU18_Banner.jpg"
-thumbnail: "assets/img/posts/2018-11-10-Open-Source-Summit-Europe-2018/OSSEU18_Banner.jpg"
+feature-img: "assets/img/posts/2018-11-10-Open-Source-Summit-Europe-2018/OSSEU18-banner.jpg"
+thumbnail: "assets/img/posts/2018-11-10-Open-Source-Summit-Europe-2018/OSSEU18-banner.jpg"
 excerpt_separator: <!--more-->
 tags: [Conference]
 ---
