@@ -42,7 +42,7 @@ A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chan
 To launch de development mode of jekyll, type the following command:
 
 ```docker
-docker run --rm --volume=$PWD:/srv/jekyll -p 80:4000 -it jekyll/builder:3.7 jekyll serve
+docker run --rm --volume=$PWD:/srv/jekyll -p 80:4000 -it jekyll/builder jekyll serve
 ```
 
 You will then be able to access your site by typing `127.0.0.1` in your browser. Any file added, updated or removed will trigger an automatic rebuild of your site.
@@ -50,7 +50,7 @@ You will then be able to access your site by typing `127.0.0.1` in your browser.
 To only build your site without deploying it, you can type this command:
 
 ```docker
-docker run --rm --volume=$PWD:/srv/jekyll -it jekyll/builder:3.7 jekyll build
+docker run --rm --volume=$PWD:/srv/jekyll -it jekyll/builder jekyll build
 ```
 
 ## Structure
