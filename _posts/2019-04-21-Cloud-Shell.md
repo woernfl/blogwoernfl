@@ -7,7 +7,9 @@ excerpt_separator: <!--more-->
 tags: [Dev Workstation]
 ---
 
-INTRO TBD
+Haven't you ever be willing to have 
 <!--more-->
 
-TEXT
+# What is GCP Cloud Shell?
+
+It is a temporary g1-small compute engine machine which comes with a bundel of tool installed by default and with a terminal exposed though the the web interface.
