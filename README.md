@@ -1,6 +1,7 @@
 # Type on Strap 
 
-[![Build Status](https://travis-ci.org/Sylhare/Type-on-Strap.svg?branch=master)](https://travis-ci.org/Sylhare/Type-on-Strap) 
+[![Build Status](https://travis-ci.org/Sylhare/Type-on-Strap.svg?branch=master)](https://travis-ci.org/Sylhare/Type-on-Strap) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwoernfl%2Fblogwoernfl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwoernfl%2Fblogwoernfl?ref=badge_shield)
+
 [![Gem Version](https://badge.fury.io/rb/type-on-strap.svg)](https://badge.fury.io/rb/type-on-strap)
 
 A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chandra [type-theme](https://github.com/rohanchandra/type-theme) with a few new features:
@@ -383,3 +384,6 @@ Now you can use any theme gem with github pages : [29/11/2017 Github Pages Broad
 ## License
 
 [The MIT License (MIT)](https://raw.githubusercontent.com/Sylhare/Type-on-Strap/master/LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwoernfl%2Fblogwoernfl.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwoernfl%2Fblogwoernfl?ref=badge_large)
