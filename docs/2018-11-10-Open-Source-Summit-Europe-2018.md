@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Open Source Summit Europe 2018
-feature-img: "assets/img/posts/2018-11-10-Open-Source-Summit-Europe-2018/OSSEU18-banner.jpg"
-thumbnail: "assets/img/posts/2018-11-10-Open-Source-Summit-Europe-2018/OSSEU18-banner.jpg"
+feature-img: "assets/images/posts/2018-11-10-Open-Source-Summit-Europe-2018/OSSEU18-banner.jpg"
+thumbnail: "assets/images/posts/2018-11-10-Open-Source-Summit-Europe-2018/OSSEU18-banner.jpg"
 excerpt_separator: <!--more-->
 tags: [Conference]
 ---
@@ -22,7 +22,7 @@ What Mr Patrick Ball is doing as a day to day job is extracting the truth from h
 
 I can not encourage you enough to go and watch his talk that you will be able to find here:
 
-[![Digital Echoes Understanding Patterns of Mass Violence with Data and Statistics]({{ site.baseurl }}/assets/img/posts/2018-11-10-Open-Source-Summit-Europe-2018/digital-echoes-understanding-patterns-of-mass-violence-with-data-and-statistics.png)](https://www.youtube.com/watch?v=wGF6zAlE1hs&list=PLbzoR-pLrL6qThA7SAbhVfuMbjZsJX1CY){:target="_blank"}
+[![Digital Echoes Understanding Patterns of Mass Violence with Data and Statistics]({{ site.baseurl }}/assets/images/posts/2018-11-10-Open-Source-Summit-Europe-2018/digital-echoes-understanding-patterns-of-mass-violence-with-data-and-statistics.png)](https://www.youtube.com/watch?v=wGF6zAlE1hs&list=PLbzoR-pLrL6qThA7SAbhVfuMbjZsJX1CY){:target="_blank"}
 
 ---
 
@@ -34,7 +34,7 @@ For me the fact that Open Source software help us to understand the universe out
 
 You can find the video of this talk here:
 
-[![Astronomy with Gravitational Waves]({{ site.baseurl }}/assets/img/posts/2018-11-10-Open-Source-Summit-Europe-2018/astronomy-with-gravitational-waves.png)](https://youtu.be/kKmwyvZnPUE?list=PLbzoR-pLrL6qThA7SAbhVfuMbjZsJX1CY){:target="_blank"}
+[![Astronomy with Gravitational Waves]({{ site.baseurl }}/assets/images/posts/2018-11-10-Open-Source-Summit-Europe-2018/astronomy-with-gravitational-waves.png)](https://youtu.be/kKmwyvZnPUE?list=PLbzoR-pLrL6qThA7SAbhVfuMbjZsJX1CY){:target="_blank"}
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How to provision persistent volume in Kubernetes.
-feature-img: "assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/Storage-Banner.jpg"
-thumbnail: "assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/Storage-Banner.jpg"
+feature-img: "assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/Storage-Banner.jpg"
+thumbnail: "assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/Storage-Banner.jpg"
 excerpt_separator: <!--more-->
 tags: [Docker, Container, Kubernetes, Storage]
 ---
@@ -39,19 +39,19 @@ So here is how the provisioning process work in this situation:
 
 1.`BigCo` has a `Kubernetes` cluster and a storage backend up and running. They can both communicate together:
 
-![PV+PVC-18]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-18.jpg)
+![PV+PVC-18]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-18.jpg)
 2.`John` create a `persistent volume`:
 
-![PV+PVC-19]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-19.jpg)
+![PV+PVC-19]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-19.jpg)
 3.`Bob` create a `persistent volume claim` referencing the `persistent volume` previously created:
 
-![PV+PVC-20]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-20.jpg)
+![PV+PVC-20]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-20.jpg)
 4.`Bob` create a `pod` and reference the `persistent volume claim` in this `pod`:
 
-![PV+PVC-21]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-21.jpg)
+![PV+PVC-21]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-21.jpg)
 5.`Kubernetes` mount the `persistent volume` in the `pod`:
 
-![PV+PVC-22]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-22.jpg)
+![PV+PVC-22]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-22.jpg)
 
 ## The code
 
@@ -184,22 +184,22 @@ So here is how the provisioning process work in this situation:
 
 1.Again, `BigCo` has a `Kubernetes` cluster and a storage backend up and running. They can both communicate together:
 
-![DP-24]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-24.jpg)
+![DP-24]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-24.jpg)
 2.`John` create one or many `storage class`, you can see `storage class` as type of storage (SSD, HDD, ...):
 
-![DP-25]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-25.jpg)
+![DP-25]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-25.jpg)
 3.`Bob` create a `persistent volume claim` referring this time to one of the `storage class`:
 
-![DP-26]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-26.jpg)
+![DP-26]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-26.jpg)
 4.`Kubernetes` create the `persistent volume` based on the `persistent volume claim` and the `storage class` chosen:
 
-![DP-27]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-27.jpg)
+![DP-27]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-27.jpg)
 5.`Bob` create a `pod` and reference the `persistent volume claim` in the `pod`:
 
-![DP-28]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-28.jpg)
+![DP-28]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-28.jpg)
 6.`Kubernetes` mount the `persistent volume` in the `pod`:
 
-![DP-29]({{ site.baseurl }}/assets/img/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-29.jpg)
+![DP-29]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-29.jpg)
 
 ## The code
 
