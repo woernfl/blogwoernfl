@@ -1,14 +1,6 @@
----
-layout: post
-title: Docker, what the hell is that?
-feature-img: "assets/images/posts/2016-12-18-Docker-what-the-hell-is-that/Docker-Banner.png"
-thumbnail: "assets/images/posts/2016-12-18-Docker-what-the-hell-is-that/Docker-Banner.png"
-excerpt_separator: <!--more-->
-tags: [Docker, Container]
----
+# Docker, what the hell is that?
 
 What is Docker, this not so old technology that everybody is talking about but that nobody seems to really understand?
-<!--more-->
 
 First of all, Docker is 2 things:
 
@@ -19,7 +11,7 @@ Here, when we will speak about Docker, we will only speak about the open-source 
 
 ---
 
-# So what exactly is Docker
+## So what exactly is Docker
 
 Here, thanks to Docker website, we know that:
 
@@ -27,17 +19,17 @@ Here, thanks to Docker website, we know that:
 
 At this point you may be thinking “So, what a big deal, Docker is a just another VM type” and you could not be more wrong for multiples reasons, the first one being that Docker is a container format and containers have some significant differences with VMs.
 
-# So what are the differences between Containers and VMs
+## So what are the differences between Containers and VMs
 
 It is mostly the architectural approach which differentiate Containers from VMs.
 
 The VMs are emulating a real machine (with virtual hardware) where the containers are directly sharing the kernel and ressources of the host.
 
-# The Virtual Machines way of doing things
+## The Virtual Machines way of doing things
 
 On top of the host operating system seats the hypervisor which emulates some virtual hardware, using this virtual hardware, you have to install a full guest OS, above which you will add the perquisite softwares for the app you are willing to run and then, finally there is the app.
 
-![VM Architecture Schema]({{ site.baseurl }}/assets/images/posts/2016-12-18-Docker-what-the-hell-is-that/VM-Schema.png)
+![VM Architecture Schema](assets/images/posts/2016-12-18-Docker-what-the-hell-is-that/VM-Schema.png)
 
 For me, there are many issues when you proceed like this:
 
@@ -45,11 +37,11 @@ For me, there are many issues when you proceed like this:
 
 2. When you have to spin up a new instance, it’s really slow, it usually includes a lot of manual steps and you have to manage VMs operating system lifecycle.
 
-# The Docker way of doing things
+## The Docker way of doing things
 
 If we have a look at the graph, we see the host operating system, on top of which we have the Docker Engine, above which seats directly the software prerequisites and the App.
 
-![Docker Architecture Schema]({{ site.baseurl }}/assets/images/posts/2016-12-18-Docker-what-the-hell-is-that/Docker-Schema.png)
+![Docker Architecture Schema](assets/images/posts/2016-12-18-Docker-what-the-hell-is-that/Docker-Schema.png)
 
 It seems simpler, isn’t it?
 No guest OS and the Docker Engine instead of the Hypervisor.
@@ -60,7 +52,7 @@ To make it short, the Docker Engine is using Cgroups, Kernel Namespaces and SE L
 
 But what is important here is that Docker allows us to run our apps with less overhead than VMs does and that is what Docker is. Docker is a piece of software that allow us to run efficiently our app, that’s all.
 
-# To conclude
+## To conclude
 
 Why should we care about Docker?
 
