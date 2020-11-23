@@ -44,7 +44,7 @@ In large deployment with spare cpu and ram capacities, you can bump up the `maxS
 
 Here is what would such a deployment look like:
 
-```yaml
+```yaml linenums="1"
 apiVersion: apps/v1
 kind: Deployment
 metadata:
