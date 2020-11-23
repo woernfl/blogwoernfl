@@ -14,4 +14,4 @@ Haven't you ever be willing to have an alaways up dev station?
 
 It is a temporary g1-small compute engine machine. It's as simple as that.
 
-But what makes it awsome is that it comes with a bundel of tool installed by default and with a terminal exposed though the web interface.
+But what makes it awsome is that it comes with a bundel of tool installed by default and with a terminal exposed though a web interface. You cqn see the list of utilities installed here: 
