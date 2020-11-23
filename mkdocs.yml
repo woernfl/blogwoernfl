@@ -29,6 +29,7 @@ markdown_extensions:
       linenums: true
       linenums_style: table
   - pymdownx.superfences
+  - pymdownx.inlinehilite
 
 plugins:
   - git-revision-date-localized:
