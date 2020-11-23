@@ -24,6 +24,10 @@ extra:
       link: https://www.linkedin.com/in/woernfl
       name: Woernfl on Linkedin
 
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+
 plugins:
   - git-revision-date-localized:
       type: datetime
