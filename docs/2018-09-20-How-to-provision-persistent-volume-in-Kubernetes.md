@@ -1,14 +1,6 @@
----
-layout: post
-title: How to provision persistent volume in Kubernetes.
-feature-img: "assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/Storage-Banner.jpg"
-thumbnail: "assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/Storage-Banner.jpg"
-excerpt_separator: <!--more-->
-tags: [Docker, Container, Kubernetes, Storage]
----
+# How to provision persistent volume in Kubernetes.
 
 I recently got the chance to speak at DevoxxFR. I loved the event, and even more the chat I had in the hallway track. I went there to talk about the different ways of `managing stateful applications via Kubernetes`, this talk raised a lot of questions which inspired me to write this blog post.
-<!--more-->
 
 Most of this questions were about the `persistent volume` provisioning, so let's dive into this subject.
 
@@ -25,21 +17,21 @@ Some would argue that there is also the `statefulset` object and I would answer 
 
 ---
 
-# Let set some context
+## Let set some context
 
 To make it easier to understand, let put some context here. Let's say that we are in a company called `BigCo`. `BigCo` has already rolled out `Kubernetes` to manage all services it provides. `John` and `Bob` are 2 employees of `BigCo`. `John` is a sysadmin and `Bob` is a developer. One day `Bob` come to `John` with an ask, he would need to run a MySQL database in the `Kubernetes` cluster hosting his application.
 
-# Manually creating the persistent volumes
+## Manually creating the persistent volumes
 
 After some research `John` is ready to share a small POC with `Bob`. `John` just want to validate the concept, therefore he choose to create the persistent manually himself and don't get into the automatic persistent volume creation.
 
-## The flow
+### The flow
 
 So here is how the provisioning process work in this situation:
 
 1.`BigCo` has a `Kubernetes` cluster and a storage backend up and running. They can both communicate together:
 
-![PV+PVC-18]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-18.jpg)
+![PV+PVC-18](assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-18.jpg)
 2.`John` create a `persistent volume`:
 
 ![PV+PVC-19]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-19.jpg)
@@ -53,7 +45,7 @@ So here is how the provisioning process work in this situation:
 
 ![PV+PVC-22]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/PV+PVC-22.jpg)
 
-## The code
+### The code
 
 Tested on Minikube, if you are not running Minikube, there will some minor change to do, mainly in the `persistent volume` description.
 
@@ -164,21 +156,21 @@ spec:
 kubectl --namespace=mysql run -it --rm --image=mysql:5.7 --restart=Never mysql-client -- mysql -h mysql -ppassword
 ```
 
-## The result
+### The result
 
 Now if the pod dies and is rescheduled somewhere else, the data will not be lost.
 
-## Limitation
+### Limitation
 
 `John` had to create a persistent volume before `Bob` could do his job, in `BigCo`, that is usually meaning the `Bob` had to submit a ticket to `John`. Which is usually source of slowdown in the process, which we want to avoid.
 
 ---
 
-# Automatically creating the persistent volumes
+## Automatically creating the persistent volumes
 
 As `Bob` is happy with the solution proposed by `John`, he wants spin up more instances. `John` quickly need to industrialize the process and after some additional research, he put in place the automatique creation of the `persistent volume`.
 
-## The flow
+### The flow
 
 So here is how the provisioning process work in this situation:
 
@@ -201,7 +193,7 @@ So here is how the provisioning process work in this situation:
 
 ![DP-29]({{ site.baseurl }}/assets/images/posts/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes/DP-29.jpg)
 
-## The code
+### The code
 
 Here again tested on Minikube. Should also work on other `Kubernetes` cluster with minor changes to the `storage class`.
 
@@ -313,7 +305,7 @@ spec:
 kubectl --namespace=mysql run -it --rm --image=mysql:5.7 --restart=Never mysql-client -- mysql -h mysql -ppassword
 ```
 
-## The result
+### The result
 
 Same thing as previously, if the pod dies and is rescheduled somewhere else, the data will not be lost.
 
@@ -321,12 +313,12 @@ We even reused a lot of the code, basically, the biggest changes are the `storag
 
 Additionally, once the many `storage class` have been created by `John`, `Bob` can create without delay the `persistent volume` he need.
 
-## Limitation
+### Limitation
 
 As `persistent volume` are dynamically created, some people tend to forget to manage the all lifecycle, which can lead to `persistent volume` not deleted even if they are not used anymore. However, this can be easily worked around by reviewing from time to time the list of `persistent volume` instantiated and not linked to a `pod`.
 
 ---
 
-# Conclusion
+## Conclusion
 
 To sum up everything, use the automated way, as always. And if you want to manage stateful app on top of Kubernetes, Statefulset is worth a look.
