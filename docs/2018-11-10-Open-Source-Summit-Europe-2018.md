@@ -14,7 +14,7 @@ What Mr Patrick Ball is doing as a day to day job is extracting the truth from h
 
 I can not encourage you enough to go and watch his talk that you will be able to find here:
 
-[![Digital Echoes Understanding Patterns of Mass Violence with Data and Statistics](assets/images/posts/2018-11-10-Open-Source-Summit-Europe-2018/digital-echoes-understanding-patterns-of-mass-violence-with-data-and-statistics.png)](https://www.youtube.com/watch?v=wGF6zAlE1hs&list=PLbzoR-pLrL6qThA7SAbhVfuMbjZsJX1CY){:target="_blank"}
+[![Digital Echoes Understanding Patterns of Mass Violence with Data and Statistics](assets/images/posts/2018-11-10-Open-Source-Summit-Europe-2018/digital-echoes-understanding-patterns-of-mass-violence-with-data-and-statistics.png)](https://www.youtube.com/watch?v=wGF6zAlE1hs&list=PLbzoR-pLrL6qThA7SAbhVfuMbjZsJX1CY)
 
 ---
 
@@ -26,7 +26,7 @@ For me the fact that Open Source software help us to understand the universe out
 
 You can find the video of this talk here:
 
-[![Astronomy with Gravitational Waves](assets/images/posts/2018-11-10-Open-Source-Summit-Europe-2018/astronomy-with-gravitational-waves.png)](https://youtu.be/kKmwyvZnPUE?list=PLbzoR-pLrL6qThA7SAbhVfuMbjZsJX1CY){:target="_blank"}
+[![Astronomy with Gravitational Waves](assets/images/posts/2018-11-10-Open-Source-Summit-Europe-2018/astronomy-with-gravitational-waves.png)](https://youtu.be/kKmwyvZnPUE?list=PLbzoR-pLrL6qThA7SAbhVfuMbjZsJX1CY)
 
 ---
 
@@ -40,8 +40,8 @@ What these 2 talks have in common is the fact that they both highlight the benef
 
 There were real good purely IT related talk that I really enjoyed at this year Open Source Summit, here is my top 5:
 
-- [DevOps meets Docs: Documentation as Code](https://events.linuxfoundation.org/wp-content/uploads/2017/12/DevOps-Meets-Docs-Documentation-as-Code-Robert-Kratky-Red-Hat.pdf){:target="_blank"}
-- [CRI Runtimes: Who is running my pod?](https://events.linuxfoundation.org/wp-content/uploads/2017/12/Whos-Running-my-Pods-A-Deep-Dive-into-Kubernetes-and-the-Container-Runtime-Interface-Phil-Estes-IBM.pdf){:target="_blank"}
-- [Cloud-init: The cross-cloud magic sauce](https://events.linuxfoundation.org/wp-content/uploads/2017/12/cloud-init-The-cross-cloud-Magic-Sauce-Scott-Moser-Chad-Smith-Canonical.pdf){:target="_blank"}
-- [Cloud object storage : the right way](https://events.linuxfoundation.org/wp-content/uploads/2017/12/Cloud-Object-Storage-The-Right-Way-Orit-Wasserman-Lightbits-Labs.pdf){:target="_blank"}
-- [OpenFaaS Cloud: Multi-user Serverless driven by GitOps](https://events.linuxfoundation.org/wp-content/uploads/2017/12/oss-eu-final-22-oct-vmware_alex-ellis.pdf){:target="_blank"}
+- [DevOps meets Docs: Documentation as Code](https://events.linuxfoundation.org/wp-content/uploads/2017/12/DevOps-Meets-Docs-Documentation-as-Code-Robert-Kratky-Red-Hat.pdf)
+- [CRI Runtimes: Who is running my pod?](https://events.linuxfoundation.org/wp-content/uploads/2017/12/Whos-Running-my-Pods-A-Deep-Dive-into-Kubernetes-and-the-Container-Runtime-Interface-Phil-Estes-IBM.pdf)
+- [Cloud-init: The cross-cloud magic sauce](https://events.linuxfoundation.org/wp-content/uploads/2017/12/cloud-init-The-cross-cloud-Magic-Sauce-Scott-Moser-Chad-Smith-Canonical.pdf)
+- [Cloud object storage : the right way](https://events.linuxfoundation.org/wp-content/uploads/2017/12/Cloud-Object-Storage-The-Right-Way-Orit-Wasserman-Lightbits-Labs.pdf)
+- [OpenFaaS Cloud: Multi-user Serverless driven by GitOps](https://events.linuxfoundation.org/wp-content/uploads/2017/12/oss-eu-final-22-oct-vmware_alex-ellis.pdf)
