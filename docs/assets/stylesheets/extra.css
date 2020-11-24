@@ -1,4 +1,5 @@
 .md-typeset h1 {
     color: var(--md-primary-fg-color);
     font-weight: bold;
+    margin: 0 0 0 0;
 }
