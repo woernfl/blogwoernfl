@@ -1,4 +1,4 @@
-# How to provision persistent volume in Kubernetes.
+# How to provision persistent volume in Kubernetes
 
 ##### *20 September 2018*
 
