@@ -4,7 +4,7 @@
     18 Decembre 2016
 
 #### 18 Decembre 2016
-##### 18 Decembre 2016
+##### *18 Decembre 2016*
 
 ![Docker Banner](/2016/assets/images/2016-12-18-Docker-what-the-hell-is-that/Docker-Banner.png)
 
