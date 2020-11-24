@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 {!2019/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes.md!}
 
 <hr style="margin-left:auto;margin-right:auto;height:4px;border-width:0;color:var(--md-primary-fg-color);background-color:var(--md-primary-fg-color);width:100%">
