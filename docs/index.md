@@ -10,6 +10,6 @@
 
 {!2018/2018-09-20-How-to-provision-persistent-volume-in-Kubernetes.md!}
 
----
+<hr style="height:2px;border-width:0;color:gray;background-color:gray;width:50%">
 
 {!2016/2016-12-18-Docker-what-the-hell-is-that.md!}
