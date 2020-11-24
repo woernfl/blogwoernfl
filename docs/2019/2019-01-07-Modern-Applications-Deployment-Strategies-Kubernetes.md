@@ -20,10 +20,10 @@ This strategy is the one used by default in Kubernetes. It consists in creating 
 ### The flow
 
 1. We have a `V1` of an application already deployed on our cluster and served by a service: ![RU-1](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-1.png)
-2. We apply an updated deployment definition, which create a `V2` deployment and a first `V2` pod, once this `V2` first pod is healthy, Kubernetes begins to serve traffic: ![RU-2](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-2.png)
-3. At this stage one of the `V1` pods is not needed anymore and is removed: ![RU-3](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-3.png)
-4. Kubernetes continues the rollout of the new version of our application by provisioning a new `V2` instance: ![RU-4](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-4.png)
-5. At the end we rollout all the pods of the `V2` version of the app and have deleted all the pods of the `V1` version: ![RU-5](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-5.png)
+2. We apply an updated deployment definition, which create a `V2` deployment and a first `V2` pod, once this `V2` first pod is healthy, Kubernetes begins to serve traffic: ![RU-2](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-2.png)
+3. At this stage one of the `V1` pods is not needed anymore and is removed: ![RU-3](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-3.png)
+4. Kubernetes continues the rollout of the new version of our application by provisioning a new `V2` instance: ![RU-4](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-4.png)
+5. At the end we rollout all the pods of the `V2` version of the app and have deleted all the pods of the `V1` version: ![RU-5](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-5.png)
 
 > #### Pros
 > - Easy to put in place
@@ -104,9 +104,9 @@ I found this type of update particularly useful if you need one pod to have acce
 
 ### The flow
 
-1. Again we have a `V1` of an application already deployed on our cluster and served by a service: ![RE-1](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RE-1.png)
-2. We apply the `V2` version, which triggers the deletion of the `V1` deployment and pods: ![RE-2](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RE-2.png)
-3. The `V2` pods are created and served once healthy: ![RE-3](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RE-3.png)
+1. Again we have a `V1` of an application already deployed on our cluster and served by a service: ![RE-1](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RE-1.png)
+2. We apply the `V2` version, which triggers the deletion of the `V1` deployment and pods: ![RE-2](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RE-2.png)
+3. The `V2` pods are created and served once healthy: ![RE-3](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RE-3.png)
 
 > #### Pros
 > - Easy to put in place
@@ -173,10 +173,10 @@ The deployment strategy consists into first creating all the components of a `V2
 
 ### The flow
 
-1. As always, we have the same starting point, a `V1` of an application already deployed on our cluster and served by a service: ![BG-1](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/BG-1.png)
-2. We begin by creating a new deployment of the `V2` application: ![BG-2](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/BG-2.png)
-3. Once the `V2` deployment is complete and healthy, we update our service to serve the `V2` application: ![BG-3](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/BG-3.png)
-4. Once we do not need the `V1` deployment anymore (eg: we are sure we do not need to rollback), we delete the `V1` deployment: ![BG-4](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/BG-4.png)
+1. As always, we have the same starting point, a `V1` of an application already deployed on our cluster and served by a service: ![BG-1](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/BG-1.png)
+2. We begin by creating a new deployment of the `V2` application: ![BG-2](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/BG-2.png)
+3. Once the `V2` deployment is complete and healthy, we update our service to serve the `V2` application: ![BG-3](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/BG-3.png)
+4. Once we do not need the `V1` deployment anymore (eg: we are sure we do not need to rollback), we delete the `V1` deployment: ![BG-4](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/BG-4.png)
 
 > #### Pros
 > - Quick roll back available
