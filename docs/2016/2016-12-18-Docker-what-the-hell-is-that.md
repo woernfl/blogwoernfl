@@ -2,7 +2,7 @@
 
 ##### *18 December 2016*
 
-[![Docker Banner](/2016/assets/images/2016-12-18-Docker-what-the-hell-is-that/Docker-Banner.png)](/docs/2016/2016-12-18-Docker-what-the-hell-is-that.md)
+[![Docker Banner](/2016/assets/images/2016-12-18-Docker-what-the-hell-is-that/Docker-Banner.png)](/2016/2016-12-18-Docker-what-the-hell-is-that)
 
 What is Docker, this not so old technology that everybody is talking about but that nobody seems to really understand?
 
