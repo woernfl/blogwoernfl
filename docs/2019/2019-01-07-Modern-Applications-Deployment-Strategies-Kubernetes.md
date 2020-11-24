@@ -1,5 +1,7 @@
 # Modern Applications Deployment Strategies with Kubernetes
 
+![Docker Banner](/2019/assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/Boulder-Cascade-Banner.jpg)
+
 Applications deployment is coming at the end of the CI/CD pipeline. Nowadays, we have multiple tools available to help us deploy safely and with the less possible negative impact on our final users. Here, I am mainly thinking of Spinnaker, Terraform or Kubernetes, but there are many other tools.
 
 However, it is still the most feared part of the complete application release process, and that's because we are possibly impacting our end users.
