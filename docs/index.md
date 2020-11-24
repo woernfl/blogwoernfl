@@ -1,8 +1,8 @@
 {!2019/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes.md!}
 
-<hr style="margin-left:auto;margin-right:auto;border-top:2px dotted grey;background-color:grey;border-radius:1px;width:50%">
-<hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:grey;background-color:grey;border-radius:1px;width:30%">
-<hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:grey;background-color:grey;border-radius:1px;width:10%">
+<hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:grey;background-color:grey;border-radius:1px;width:60%">
+<hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:grey;background-color:grey;border-radius:1px;width:40%">
+<hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:grey;background-color:grey;border-radius:1px;width:20%">
 
 {!2018/2018-11-10-Open-Source-Summit-Europe-2018.md!}
 
