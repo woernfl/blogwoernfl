@@ -1,3 +1,6 @@
+{{ extra.social }}
+{{ extra.social.0 }}
+{{ extra.social[0] }}
 {{ extra.social.0.link }}
 
 {{ macros_info() }}
