@@ -37,8 +37,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.details
-  - markdown_include.include:
-      base_path: docs
+  - markdown_include.include
   - meta
   - toc:
       toc_depth: 0
