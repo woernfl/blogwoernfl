@@ -19,7 +19,7 @@ This strategy is the one used by default in Kubernetes. It consists in creating 
 
 ### The flow
 
-1. We have a `V1` of an application already deployed on our cluster and served by a service: ![RU-1](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-1.png)
+1. We have a `V1` of an application already deployed on our cluster and served by a service: ![RU-1](assets/images/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-1.png)
 2. We apply an updated deployment definition, which create a `V2` deployment and a first `V2` pod, once this `V2` first pod is healthy, Kubernetes begins to serve traffic: ![RU-2](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-2.png)
 3. At this stage one of the `V1` pods is not needed anymore and is removed: ![RU-3](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-3.png)
 4. Kubernetes continues the rollout of the new version of our application by provisioning a new `V2` instance: ![RU-4](assets/images/posts/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/RU-4.png)
