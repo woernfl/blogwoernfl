@@ -1,4 +1,4 @@
-# **How to provision persistent volume in Kubernetes.**
+# How to provision persistent volume in Kubernetes.
 
 I recently got the chance to speak at DevoxxFR. I loved the event, and even more the chat I had in the hallway track. I went there to talk about the different ways of `managing stateful applications via Kubernetes`, this talk raised a lot of questions which inspired me to write this blog post.
 
