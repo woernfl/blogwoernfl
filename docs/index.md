@@ -1,4 +1,4 @@
-{{ extra.social }}
+{{ extra.social.link }}
 
 {{ macros_info() }}
 
