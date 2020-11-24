@@ -1,8 +1,8 @@
-# [Docker, what the hell is that?](/2016/2016-12-18-docker-what-the-hell-is-that/full)
+# [Docker, what the hell is that?](/2016/2016-12-18-docker-what-the-hell-is-that/)
 
 ##### *18 December 2016*
 
-[![Docker Banner](/2016/assets/images/2016-12-18-Docker-what-the-hell-is-that/Docker-Banner.png)](/2016/2016-12-18-docker-what-the-hell-is-that/full)
+[![Docker Banner](/2016/assets/images/2016-12-18-Docker-what-the-hell-is-that/Docker-Banner.png)](/2016/2016-12-18-docker-what-the-hell-is-that/)
 
 What is Docker, this not so old technology that everybody is talking about but that nobody seems to really understand?
 
