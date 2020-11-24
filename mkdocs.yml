@@ -35,6 +35,7 @@ markdown_extensions:
       base_path: docs
 
 plugins:
+  - search
   - git-revision-date-localized:
       type: datetime
       time_zone: Europe/Paris
