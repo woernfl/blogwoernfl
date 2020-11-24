@@ -1,5 +1,3 @@
-# woernfl's blog
-
 {!2019/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes.md!}
 
 <hr style="margin-left:auto;margin-right:auto;height:4px;border-width:0;color:hsla(231, 48%, 48%, 1);background-color:hsla(231, 48%, 48%, 1);width:50%">
