@@ -36,6 +36,8 @@ markdown_extensions:
   - pymdownx.details
   - markdown_include.include:
       base_path: docs
+  - toc:
+      toc_depth: 0
 
 plugins:
   - search
