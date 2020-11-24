@@ -6,6 +6,7 @@ theme:
 
 repo_name: 'woernfl/blogwoernfl'
 repo_url: 'https://github.com/woernfl/blogwoernfl'
+edit_uri: ""
 
 copyright: 'Copyright &copy; 2016 - 2020 Florian Woerner'
 
