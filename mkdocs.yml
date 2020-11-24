@@ -26,11 +26,14 @@ extra:
       name: Woernfl on Linkedin
 
 markdown_extensions:
+  - admonition
+  - def_list
   - pymdownx.highlight:
       linenums: true
       linenums_style: table
   - pymdownx.superfences
   - pymdownx.inlinehilite
+  - pymdownx.details
   - markdown_include.include:
       base_path: docs
 
