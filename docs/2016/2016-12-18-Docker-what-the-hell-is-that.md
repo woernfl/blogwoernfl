@@ -29,7 +29,7 @@ The VMs are emulating a real machine (with virtual hardware) where the container
 
 On top of the host operating system seats the hypervisor which emulates some virtual hardware, using this virtual hardware, you have to install a full guest OS, above which you will add the perquisite softwares for the app you are willing to run and then, finally there is the app.
 
-![VM Architecture Schema](/docs/2016assets/images/2016-12-18-Docker-what-the-hell-is-that/VM-Schema.png)
+![VM Architecture Schema](/docs/2016/assets/images/2016-12-18-Docker-what-the-hell-is-that/VM-Schema.png)
 
 For me, there are many issues when you proceed like this:
 
