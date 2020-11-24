@@ -1,3 +1,6 @@
+{{ macros_info() }}
+
+
 {!2019/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes.md!}
 
 <hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:var(--md-primary-fg-color);background-color:var(--md-primary-fg-color);border-radius:1px;width:60%">
