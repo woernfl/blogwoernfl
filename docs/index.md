@@ -1,21 +1,4 @@
-base
-
-{{ extra.social }}
-
-1
-
-{{ extra.social.0 }}
-
-2
-
-{{ extra.social[0] }}
-
-3
-
 {{ extra.social.0.link }}
-
-{{ macros_info() }}
-
 
 {!2019/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes.md!}
 
