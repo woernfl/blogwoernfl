@@ -41,7 +41,7 @@ markdown_extensions:
       base_path: docs
   - meta
   - toc:
-      toc_depth: 2
+      toc_depth: 0
 
 plugins:
   - search
