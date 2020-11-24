@@ -1,3 +1,7 @@
+---
+title: Docker, what the hell is that?
+---
+
 # [Docker, what the hell is that?](/2016/2016-12-18-Docker-what-the-hell-is-that)
 
 ##### *18 December 2016*
