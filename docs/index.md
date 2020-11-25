@@ -5,7 +5,6 @@
 <hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:var(--md-primary-fg-color);background-color:var(--md-primary-fg-color);border-radius:1px;width:10%">
 
 {!docs_source/2018/2018-11-10-Open-Source-Summit-Europe-2018/01_excerpt.md!}
-
 [Read more ...](/2018/2018-11-10-Open-Source-Summit-Europe-2018/)
 
 <hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:var(--md-primary-fg-color);background-color:var(--md-primary-fg-color);border-radius:1px;width:70%">
