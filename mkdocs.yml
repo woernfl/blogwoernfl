@@ -42,6 +42,7 @@ markdown_extensions:
   - markdown_include.include
   - meta
   - toc:
+      permalink: true
       toc_depth: 4
 
 plugins:
