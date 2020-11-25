@@ -7,3 +7,7 @@
 .md-typeset h5 {
     margin: 0 0 0 0;
 }
+
+.md-grid {
+    max-width: initial;
+}
