@@ -1,4 +1,4 @@
-[# Modern Applications Deployment Strategies with Kubernetes](/2019/2019-01-07-modern-applications-deployment-strategies-kubernetes/)
+# [Modern Applications Deployment Strategies with Kubernetes](/2019/2019-01-07-modern-applications-deployment-strategies-kubernetes/)
 
 ##### *7 January 2019*
 
