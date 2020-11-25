@@ -1,0 +1,52 @@
+site_name: "@woernfl 's blog"
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+
+repo_name: 'woernfl/blogwoernfl'
+repo_url: 'https://github.com/woernfl/blogwoernfl'
+edit_uri: ""
+
+copyright: 'Copyright &copy; 2016 - 2020 Florian Woerner'
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://blog.woernfl.xyz/
+      name: Woernfl's blog
+    - icon: fontawesome/brands/github
+      link: https://github.com/woernfl
+      name: Woernfl on Github
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/woernfl
+      name: Woernfl on Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/woernfl
+      name: Woernfl on Linkedin
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: table
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - markdown_include.include
+  - meta
+  - toc:
+      toc_depth: 0
+
+plugins:
+  - macros
+  - search
+  - git-revision-date-localized:
+      type: datetime
+      time_zone: Europe/Paris
+      locale: fr
+      fallback_to_build_date: true
