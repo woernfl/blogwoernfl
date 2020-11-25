@@ -12,6 +12,10 @@ edit_uri: ""
 
 copyright: 'Copyright &copy; 2016 - 2020 Florian Woerner'
 
+google_analytics:
+  - UA-105986496-10
+  - auto
+
 extra_css:
   - assets/stylesheets/extra.css
 
