@@ -37,7 +37,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.details
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      check_paths: true
   - markdown_include.include
   - meta
   - toc:
