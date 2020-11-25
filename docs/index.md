@@ -1,4 +1,5 @@
 {!docs_source/2019/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/01_excerpt.md!}
+[Read more ...](/2019/2019-01-07-Modern-Applications-Deployment-Strategies-Kubernetes/)
 
 <hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:var(--md-primary-fg-color);background-color:var(--md-primary-fg-color);border-radius:1px;width:70%">
 <hr style="margin-left:auto;margin-right:auto;height:2px;border-width:0;color:var(--md-primary-fg-color);background-color:var(--md-primary-fg-color);border-radius:1px;width:40%">
