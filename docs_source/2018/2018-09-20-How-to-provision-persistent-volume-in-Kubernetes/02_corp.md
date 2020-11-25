@@ -1,6 +1,6 @@
 ---
 
-## The 2 ways of managing it
+The 2 ways of managing it:
 
 - `Manually creating the persistent volume`, which is leading to you creating all the persistent volume on your own (the last thing you want to do)
 - `Automatically creating the persistent volume` by letting Kubernetes talk with your storage backend so that it can provision itself what it needs
