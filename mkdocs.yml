@@ -10,11 +10,7 @@ repo_name: 'woernfl/blogwoernfl'
 repo_url: 'https://github.com/woernfl/blogwoernfl'
 edit_uri: ""
 
-copyright: 'Copyright &copy; 2016 - 2020 Florian Woerner'
-
-google_analytics:
-  - UA-105986496-10
-  - auto
+copyright: 'Copyright &copy; 2016 - 2023 Florian Woerner'
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -33,6 +29,9 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/woernfl
       name: Woernfl on Linkedin
+  analytics:
+    provider: google
+    property: UA-105986496-10
 
 markdown_extensions:
   - admonition
